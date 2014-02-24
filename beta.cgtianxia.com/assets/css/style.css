@@ -1,0 +1,391 @@
+
+
+
+
+
+
+
+/**/
+body { 
+	padding-top: 76px;
+	min-width: 1250px;
+}
+
+.navbar {
+	height: 83px;
+}
+
+.navbar-nav > li > a {
+	font-size: 17px;
+	height: 53px;
+    padding-top: 30px;
+}
+
+
+
+.nav-feature {
+	padding-top: 10px;
+	box-shadow: inset 0 -1px black;
+}
+
+.nav-feature > .row > div > img {
+	padding-top: 8px;
+}
+
+.nav-feature > .row > div > ul {
+	padding-right: 120px;
+	padding-left: 0px;
+}
+
+.nav-feature > .row > div > ul > li {
+	list-style-type: none;
+}
+
+.nav-feature > .row > div > ul > li > h4 > a {
+	text-decoration: none;
+	color: #386bd8;
+}
+
+.footer-first {
+	padding-top: 12px;
+	padding-bottom: 4px;
+	box-shadow: inset 0 -1px white;
+}
+
+.footer-first > .row > div > ul li {
+	list-style-type: none;
+}
+
+.footer-first > .row > div > ul li > a{
+	color: yellow;
+	font-size: 14px;
+}
+
+.footer-first > .row > div > ul li > a:hover{
+	color: #408CF3;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.footer-first > .row > div > ul li:first-child {
+	color: white;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+
+.footer-sencond {
+	padding-top: 8px;
+}
+
+.footer-sencond-info {
+	padding-left: 40px;
+}
+
+.footer-sencond-info > div:first-child {
+	color: yellow;
+}
+
+.footer-second-contact {
+	color: white;
+}
+
+/**/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #555555;
+	background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #408CF3;
+	background-color: transparent;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #262626;
+	text-decoration: none;
+	background-color: #408CF3;
+}
+
+.navbar-nav {
+	float: left;
+	margin: 0 0 0 80px;
+}
+
+/**/
+.hs_container{
+	position:relative;
+	width:1170px;
+	height:460px;
+	overflow:hidden;
+	clear:both;
+	/*border:2px solid #fff;*/
+	cursor:pointer;
+	/*-moz-box-shadow:1px 1px 3px #222;*/
+	/*-webkit-box-shadow:1px 1px 3px #222;*/
+	/*box-shadow:1px 1px 3px #222;*/
+}
+.hs_container .hs_area{
+	position:absolute;
+	overflow:hidden;
+}
+.hs_area img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	z-index:0;
+}
+.hs_area img.hs_visible{
+	display:block;
+	z-index:1;
+}
+.hs_area1{
+	border-right:2px solid #fff;
+}
+.hs_area4, .hs_area5{
+	border-top:2px solid #fff;
+}
+.hs_area4{
+	border-right:2px solid #fff;
+}
+.hs_area3{
+	border-top:2px solid #fff;
+}
+.hs_area1{
+	width:659px;
+	height:283px;
+	top:0px;
+	left:0px;
+}
+.hs_area2{
+	width:508px;
+	height:139px;
+	top:0px;
+	left:660px;
+}
+.hs_area3{
+	width:508px;
+	height:139px;
+	top:139px;
+	left:660px;
+}
+.hs_area4{
+	width:865px;
+	height:174px;
+	top: 284px;
+	left:0px;
+}
+.hs_area5{
+	width:301px;
+	height:174px;
+	top:284px;
+	left:866px;
+}
+
+/**/
+/*
+Skin Name: Nivo Slider Light Theme
+Skin URI: http://nivo.dev7studios.com
+Description: A light skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom
+Author URI: http://dev7studios.com
+Supports Thumbs: true
+*/
+
+.theme-light.slider-wrapper {
+    background: #fff;
+    padding: 10px;
+}
+.theme-light .nivoSlider {
+	position:relative;
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+    margin-bottom:10px;
+    overflow: visible;
+}
+.theme-light .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-light .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-light .nivo-controlNav {
+	text-align: left;
+	padding: 0;
+	position: relative;
+	z-index: 10;
+}
+.theme-light .nivo-controlNav a {
+	display:inline-block;
+	width:10px;
+	height:10px;
+	background:url(bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+}
+.theme-light .nivo-controlNav a.active {
+	background-position:0 100%;
+}
+
+.theme-light .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background: url(arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	top: auto;
+	bottom: -36px;
+	z-index: 11;
+}
+.theme-light .nivo-directionNav a:hover {
+    background-color: #eee;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.theme-light a.nivo-nextNav {
+	background-position:160% 50%;
+	right:0px;
+}
+.theme-light a.nivo-prevNav {
+    background-position:-60% 50%;
+    left: auto;
+	right: 35px;
+}
+
+.theme-light .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-light .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-light .nivo-caption a:hover {
+    color:#fff;
+}
+
+.theme-light .nivo-controlNav.nivo-thumbs-enabled {
+	width: 80%;
+}
+.theme-light .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-light .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+.container {
+  max-width: none !important;
+  width: 1170px;
+}
+
+/* Demonstrate the grids */
+/*.col-xs-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+}*/
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: left;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+/*.pj {
+	height: 53px;
+	padding-top: 30px;
+}*/
